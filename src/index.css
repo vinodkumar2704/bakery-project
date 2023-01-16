@@ -111,7 +111,7 @@ button.remove {
   /* position: relative; */
   align-items: center;
   padding: 20px;
-  background-color: rgb(222, 155, 67);
+  background-color: rgb(238, 149, 33);
   margin: 5px;
 }
 
@@ -121,6 +121,10 @@ button.remove {
   margin: 0.1rem;
 }
 
+.card:hover{
+  background-color:rgb(243, 224, 55);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -128,5 +132,11 @@ ul {
   margin-left: 80%;
   font-size: xx-large;
   margin-top: 40px;
+  
+}
+
+.blog{
+  margin: 15px;
+  align-items: center;
   
 }
