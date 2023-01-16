@@ -121,4 +121,12 @@ button.remove {
   margin: 0.1rem;
 }
 
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 80%;
+  font-size: xx-large;
+  margin-top: 40px;
+  
+}
