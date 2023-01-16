@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.nav--logo {
+  max-height: 80px;
+}
+
+
+
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:x-large;
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  /* overflow-x: auto; */
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
+}
+.row.center {
+  align-items: center;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.text-right {
+  text-align: right;
+}
+img.small {
+  max-height: 8rem;
+  margin: 20px;
+}
+button {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: #f5d57d;
+  width: 100%;
+  cursor: pointer;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 2rem;
+  font-size: large;
+  font-weight: bold;
+}
+button.remove {
+  background-color: #e55151;
+  width: 2rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+
+.card {
+  width: 180px;
+  font-size: 20px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+  /* position: relative; */
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(222, 155, 67);
+  margin: 5px;
+}
+
+.card--btn{
+  font-size: 1rem;
+  padding: 0.4rem;
+  margin: 0.1rem;
+}
+
+
