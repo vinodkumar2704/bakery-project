@@ -36,7 +36,7 @@ function App() {
 
   const onDelete = (product) => {
     const exist = cartItems.find((x) => x.id === product.id);
-    if (exist.qty > 0) {
+    if (exist ) {
       setCartItems(cartItems.filter((x) => x.id !== product.id));
     } 
     
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar countCartItems={cartItems.length}></Navbar>
+      <Navbar></Navbar>
       <div className="row">
         <Main products={products} onAdd={onAdd} onDelete={onDelete} ></Main>
         <Cart
